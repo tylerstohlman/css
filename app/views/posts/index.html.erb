@@ -1,0 +1,16 @@
+<div>
+  <% for post in @posts %>
+    <div>
+      <h4>
+        <!-- TODO: display the name of the user that created the post -->
+        <% if post.user %>
+          <%= post.user.first_name %>
+        <% else %>
+          anonymous
+        <% end %>
+      </h4>
+      <img src="<%= post.image %>">
+      <p><%= post.body %></p>
+    </div>
+  <% end %>
+</div>
