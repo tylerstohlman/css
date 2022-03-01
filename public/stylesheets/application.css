@@ -1,0 +1,20 @@
+h1{
+    color: red; 
+    font-size: 70px;
+}
+p{
+    color: purple; 
+    font-size: 36px;
+}
+p a {
+    color: rgb(160, 76, 160)
+}
+#boba{
+    color: green
+}
+.taco{
+    color: yellow
+}
+body {
+    background-color:aqua
+}
